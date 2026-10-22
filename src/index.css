@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-outfit: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-outfit);
+    background-color: #040817;
+    color: #e2e8f0;
+    min-height: 100vh;
+  }
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-outfit {
+  font-family: var(--font-outfit);
+}
+
+.font-mono-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle KBC Studio Spotlight radial gradients */
+.kbc-studio-bg {
+  background: 
+    radial-gradient(circle at 50% 20%, rgba(30, 58, 138, 0.35) 0%, rgba(6, 12, 36, 0.95) 65%, #030612 100%),
+    linear-gradient(to bottom, #070d24 0%, #030612 100%);
+}
+
+.kbc-gold-gradient {
+  background: linear-gradient(135deg, #FFF3B0 0%, #E5A93C 50%, #B8860B 100%);
+}
+
+.kbc-gold-text {
+  background: linear-gradient(135deg, #FFF3B0 0%, #F5C564 50%, #C99700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kbc-card-border {
+  border: 1px solid rgba(229, 169, 60, 0.25);
+}
+
+.kbc-card-border-active {
+  border: 1px solid rgba(229, 169, 60, 0.7);
+  box-shadow: 0 0 15px rgba(229, 169, 60, 0.25);
+}

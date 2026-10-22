@@ -1,0 +1,6 @@
+{
+  "name": "KBC WITH ANSH ANAND",
+  "description": "The ultimate Kaun Banega Crorepati trivia experience hosted by Ansh Anand, featuring authentic lifelines, Fastest Finger First, digital prize cheques, and specialized domains.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
